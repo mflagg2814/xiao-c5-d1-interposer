@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "c5d1")(type "KiCad")(uri "${KIPRJMOD}/lib/c5d1.pretty")(options "")(descr "c5-d1 interposer project footprints"))
+)

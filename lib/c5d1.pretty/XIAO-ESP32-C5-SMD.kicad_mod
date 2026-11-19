@@ -1,0 +1,694 @@
+(footprint "XIAO-ESP32-C5-SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Seeed Studio XIAO ESP32-C5, castellated SMD (from Seeed OPL_Kicad_Library, XIAO Family). Underside pads aren't soldered, except EN pad 17 (solder-feed hole, wired to the D1 mini RST pin). GND thermal pad 25 gets a bare pad for thermal contact. F.Fab outlines plus top-copper keepouts mark the underside pads.")
+	(tags "XIAO ESP32-C5 Seeed")
+	(property "Reference" "REF**"
+		(at 7.312 -21.336 0)
+		(layer "F.SilkS")
+		(uuid "a9f5f5dd-597c-45dd-b31d-a35c3963eed2")
+		(effects
+			(font
+				(size 0.78232 0.78232)
+				(thickness 0.10668)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "XIAO-ESP32-C5-SMD"
+		(at 8.89 -10.795 0)
+		(layer "F.Fab")
+		(uuid "2d66aca7-e0b3-44df-838e-be285890792c")
+		(effects
+			(font
+				(size 0.536448 0.536448)
+				(thickness 0.073152)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5173b428-b87b-497c-9fd1-0d444c2ced85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea7181c4-fdca-44f1-ad15-d0627f50a68e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 17.8 0)
+		(end 0 -21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e428eb56-00a2-4249-bb91-d2e5823b2899")
+	)
+	(fp_rect
+		(start 0 -21)
+		(end 17.8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2133d927-559d-4615-ab92-732772c02d94")
+	)
+	(fp_circle
+		(center 1.084 -19.9)
+		(end 1.084 -20.154)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "50e04a65-8ff2-4d1f-be98-2db48101e90a")
+	)
+	(pad "1" smd roundrect
+		(at 0.835 -18.12)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "c68f6b12-dcf5-46b1-b159-2eef9023b0ac")
+	)
+	(pad "2" smd roundrect
+		(at 0.835 -15.58)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "525b09fc-9099-4274-98c3-45f84d0591ab")
+	)
+	(pad "3" smd roundrect
+		(at 0.835 -13.04)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "99cc76a7-0a78-4868-871b-c214ecac5525")
+	)
+	(pad "4" smd roundrect
+		(at 0.835 -10.5)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "8038b67b-b3bf-4a3e-b790-40857963c957")
+	)
+	(pad "5" smd roundrect
+		(at 0.835 -7.96)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "84711cb2-d222-464e-bcd5-f76af75cc612")
+	)
+	(pad "6" smd roundrect
+		(at 0.835 -5.42)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "aabcfc3b-fa72-4e48-95d1-d53474158cc0")
+	)
+	(pad "7" smd roundrect
+		(at 0.835 -2.88)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "3e086061-1f3f-4b1e-9354-920126d40249")
+	)
+	(pad "8" smd roundrect
+		(at 17 -2.88)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "974a7e29-b5d3-475c-b481-2bc14f5b3495")
+	)
+	(pad "9" smd roundrect
+		(at 17 -5.42)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "a553cc0b-22bc-49aa-9fb7-680c812e8abd")
+	)
+	(pad "10" smd roundrect
+		(at 17 -7.96)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "b650936d-c436-4d93-abb7-7957add5cfb1")
+	)
+	(pad "11" smd roundrect
+		(at 17 -10.5)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "177728f1-7b02-41a6-9de4-bdaee546f6d9")
+	)
+	(pad "12" smd roundrect
+		(at 17 -13.04)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "eb6539ef-4d84-4ae5-bc4e-237dae21b9ef")
+	)
+	(pad "13" smd roundrect
+		(at 17 -15.58)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "c8744fbe-93c9-4c54-84bc-435357de679f")
+	)
+	(pad "14" smd roundrect
+		(at 17 -18.12)
+		(size 2.75 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 45)
+		(uuid "fd579d63-bbef-4609-9252-aad3f944a314")
+	)
+	(pad "17" thru_hole circle
+		(at 7.6166 -16.6015)
+		(size 1.6 1.6)
+		(drill 1.0)
+		(layers "*.Cu" "*.Mask")
+		(uuid "922b8d5c-dd74-4d70-aed9-6bf0e4687b86")
+	)
+	(pad "13" smd rect
+		(at 9.949 -8.412)
+		(size 1.88 3.05)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(uuid "275e4e8a-f33e-4ead-afac-4dcc4a32680a")
+	)
+	(fp_circle
+		(center 7.6166 -19.1415)
+		(end 8.4666 -19.1415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "49f91082-a1dc-46fc-8146-2d39e9bf3a06")
+	)
+	(fp_circle
+		(center 10.1566 -19.1415)
+		(end 11.0066 -19.1415)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f4fc5ef4-8410-4040-8c33-fc789f7639b0")
+	)
+	(fp_circle
+		(center 7.6166 -16.6015)
+		(end 8.4666 -16.6015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "be3730b9-9150-4345-beb5-4e405b527c00")
+	)
+	(fp_circle
+		(center 10.1566 -16.6015)
+		(end 11.0066 -16.6015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "465079a7-2d23-4f19-8cc6-7855864e0198")
+	)
+	(fp_circle
+		(center 7.6166 -14.0615)
+		(end 8.4666 -14.0615)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7de3ff39-437d-4d9e-83c7-7cc9aac3fac7")
+	)
+	(fp_circle
+		(center 10.1566 -14.0615)
+		(end 11.0066 -14.0615)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3ec49544-904f-4373-b35c-e74367958eab")
+	)
+	(fp_circle
+		(center 7.6166 -11.5215)
+		(end 8.4666 -11.5215)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3ba33a7e-a9cf-4a16-85a9-9526382ed8d8")
+	)
+	(fp_circle
+		(center 10.064 -11.5783)
+		(end 10.9140 -11.5783)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fcfcc1cf-518e-47e4-b91c-d2f86ed074d3")
+	)
+	(fp_rect
+		(start 6.7586 -6.2183)
+		(end 7.8586 -3.7183)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "55b44749-edfc-49b1-aaa9-e0802d1024b9")
+	)
+	(fp_rect
+		(start 9.2986 -6.2183)
+		(end 10.3986 -3.7183)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8ca42cf3-0e1e-41bb-9dc0-d0603683c3b5")
+	)
+	(fp_rect
+		(start 8.9990 -9.9620)
+		(end 10.8990 -6.8620)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3d7248b8-620c-4b99-8e8d-0f4097c648a3")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "8118ff2b-d0bb-44b5-b1d3-88228baecd2c")
+		(name "Underside pad 15 MTDI GPIO3 - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 8.7166 -19.1415) (xy 8.6329 -18.7205) (xy 8.3944 -18.3637) (xy 8.0376 -18.1252) (xy 7.6166 -18.0415) (xy 7.1956 -18.1252) (xy 6.8388 -18.3637) (xy 6.6003 -18.7205) (xy 6.5166 -19.1415) (xy 6.6003 -19.5625) (xy 6.8388 -19.9193) (xy 7.1956 -20.1578) (xy 7.6166 -20.2415) (xy 8.0376 -20.1578) (xy 8.3944 -19.9193) (xy 8.6329 -19.5625)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "2693b9e7-1ae4-46c2-8797-e0bc422e30ce")
+		(name "Underside pad 16 MTDO GPIO5 - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 11.2566 -19.1415) (xy 11.1729 -18.7205) (xy 10.9344 -18.3637) (xy 10.5776 -18.1252) (xy 10.1566 -18.0415) (xy 9.7356 -18.1252) (xy 9.3788 -18.3637) (xy 9.1403 -18.7205) (xy 9.0566 -19.1415) (xy 9.1403 -19.5625) (xy 9.3788 -19.9193) (xy 9.7356 -20.1578) (xy 10.1566 -20.2415) (xy 10.5776 -20.1578) (xy 10.9344 -19.9193) (xy 11.1729 -19.5625)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "8eb4c2a2-5566-4b5e-8cfe-efb0f8d35f98")
+		(name "Underside pad 17 EN - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 8.7166 -16.6015) (xy 8.6329 -16.1805) (xy 8.3944 -15.8237) (xy 8.0376 -15.5852) (xy 7.6166 -15.5015) (xy 7.1956 -15.5852) (xy 6.8388 -15.8237) (xy 6.6003 -16.1805) (xy 6.5166 -16.6015) (xy 6.6003 -17.0225) (xy 6.8388 -17.3793) (xy 7.1956 -17.6178) (xy 7.6166 -17.7015) (xy 8.0376 -17.6178) (xy 8.3944 -17.3793) (xy 8.6329 -17.0225)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "a1c1c78e-463d-41cd-8a58-a1c7a1284639")
+		(name "Underside pad 18 GND - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 11.2566 -16.6015) (xy 11.1729 -16.1805) (xy 10.9344 -15.8237) (xy 10.5776 -15.5852) (xy 10.1566 -15.5015) (xy 9.7356 -15.5852) (xy 9.3788 -15.8237) (xy 9.1403 -16.1805) (xy 9.0566 -16.6015) (xy 9.1403 -17.0225) (xy 9.3788 -17.3793) (xy 9.7356 -17.6178) (xy 10.1566 -17.7015) (xy 10.5776 -17.6178) (xy 10.9344 -17.3793) (xy 11.1729 -17.0225)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "ff8be9a1-4ac8-4cf8-9d21-516ca221ab72")
+		(name "Underside pad 19 MTMS GPIO2 - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 8.7166 -14.0615) (xy 8.6329 -13.6405) (xy 8.3944 -13.2837) (xy 8.0376 -13.0452) (xy 7.6166 -12.9615) (xy 7.1956 -13.0452) (xy 6.8388 -13.2837) (xy 6.6003 -13.6405) (xy 6.5166 -14.0615) (xy 6.6003 -14.4825) (xy 6.8388 -14.8393) (xy 7.1956 -15.0778) (xy 7.6166 -15.1615) (xy 8.0376 -15.0778) (xy 8.3944 -14.8393) (xy 8.6329 -14.4825)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "025d3ff8-8b86-4084-92a2-091d4e8e41df")
+		(name "Underside pad 20 MTCK GPIO4 - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 11.2566 -14.0615) (xy 11.1729 -13.6405) (xy 10.9344 -13.2837) (xy 10.5776 -13.0452) (xy 10.1566 -12.9615) (xy 9.7356 -13.0452) (xy 9.3788 -13.2837) (xy 9.1403 -13.6405) (xy 9.0566 -14.0615) (xy 9.1403 -14.4825) (xy 9.3788 -14.8393) (xy 9.7356 -15.0778) (xy 10.1566 -15.1615) (xy 10.5776 -15.0778) (xy 10.9344 -14.8393) (xy 11.1729 -14.4825)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "e8879717-81f4-49d3-9c77-befb447cfe9b")
+		(name "Underside pad 21 BOOT GPIO28 - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 8.7166 -11.5215) (xy 8.6329 -11.1005) (xy 8.3944 -10.7437) (xy 8.0376 -10.5052) (xy 7.6166 -10.4215) (xy 7.1956 -10.5052) (xy 6.8388 -10.7437) (xy 6.6003 -11.1005) (xy 6.5166 -11.5215) (xy 6.6003 -11.9425) (xy 6.8388 -12.2993) (xy 7.1956 -12.5378) (xy 7.6166 -12.6215) (xy 8.0376 -12.5378) (xy 8.3944 -12.2993) (xy 8.6329 -11.9425)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "e5d20241-5695-42b7-b95e-ae8d433c2ea7")
+		(name "Underside pad 22 3V3 - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 11.1640 -11.5783) (xy 11.0803 -11.1573) (xy 10.8418 -10.8005) (xy 10.4850 -10.5620) (xy 10.0640 -10.4783) (xy 9.6430 -10.5620) (xy 9.2862 -10.8005) (xy 9.0477 -11.1573) (xy 8.9640 -11.5783) (xy 9.0477 -11.9993) (xy 9.2862 -12.3561) (xy 9.6430 -12.5946) (xy 10.0640 -12.6783) (xy 10.4850 -12.5946) (xy 10.8418 -12.3561) (xy 11.0803 -11.9993)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "70f65f1d-a983-4807-bc46-4c8eaa2eb632")
+		(name "Underside pad 23 BAT+ - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 6.5086 -6.4683) (xy 8.1086 -6.4683) (xy 8.1086 -3.4683) (xy 6.5086 -3.4683)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "b6ff0abf-7ae5-4db6-a2f9-808f10771a39")
+		(name "Underside pad 24 BAT- GND - no tracks, vias or fill")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 9.0486 -6.4683) (xy 10.6486 -6.4683) (xy 10.6486 -3.4683) (xy 9.0486 -3.4683)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "67199acc-8ac1-4cab-b762-4e7e8b73c397")
+		(name "Underside pad 25 GND thermal - no tracks")
+		(hatch full 0.3)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 8.7490 -10.2120) (xy 11.1490 -10.2120) (xy 11.1490 -6.6120) (xy 8.7490 -6.6120)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/c5d1.3dshapes/seeed-studio-xiao-esp32c5.step"
+		(offset
+			(xyz 15.011 8.673 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

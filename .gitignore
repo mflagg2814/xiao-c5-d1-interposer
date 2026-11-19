@@ -1,0 +1,25 @@
+# KiCad local state, locks, caches and backups
+*.kicad_prl
+*.lck
+fp-info-cache
+/*-backups
+/.history
+_autosave-*
+~*
+*~
+*.bak
+*-bak
+*-save.pro
+*-save.kicad_pcb
+\#auto_saved_files\#
+
+# GrabCAD model: not redistributable, see README
+/lib/c5d1.3dshapes/seeed-studio-xiao-esp32c5.step
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Scratch fabrication output (the committed Gerbers live in gerbers/)
+/production
+/Gerber Files
